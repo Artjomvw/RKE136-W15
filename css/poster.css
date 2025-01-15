@@ -11,6 +11,12 @@ html {
     color: #151515;
 }
 
+.bot-container {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
 .movie-card {
     margin-top: 5rem;
     height: 800px;
@@ -199,10 +205,4 @@ footer ul li a:hover i
 {
     color: rgb(3, 37, 65); 
     transform: rotate(15deg); 
-}
-
-.bot-container {
-    position: fixed;
-    right: 1;
-    bottom: 0;
 }
